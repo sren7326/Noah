@@ -23,7 +23,7 @@ const messages = [
 ];
 
 var allGivenMessages = [];
-var currentIndex = 0;
+var currentIndex = -1;
 var lastDate = "";  // To store the last update date
 
 function save() {
@@ -59,7 +59,7 @@ function load() {
 
 function reset() {
     allGivenMessages = [];
-    currentIndex = 0;
+    currentIndex = -1;
     lastDate = new Date().toISOString().split('T')[0];;
 
     save();
