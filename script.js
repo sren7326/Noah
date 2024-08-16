@@ -2,7 +2,6 @@
 const messages = [
     "I'm lost :'( give me the directions to your heart!",
 	"Are you Google? 'Cause you've got everything I'm looking for.",
-	"Hydrate!!",
 	"Your eyes are like Ikea because I get lost in them.",
 	"Are you a banana? 'Cause you're so a-peel-ing.",
 	"You overheat my laptop with your file size and hotness",
@@ -12,6 +11,7 @@ const messages = [
 	"bleep bloop i love yoop",
 	"if we were in a video game... my hearts would fill up every time I saw you",
 	"wouldn't it be crazy if you called me right now?",
+	"Whoops! I forgot your name... can I just call you mine?",
 	"my hands are cold...",
 	"are you a keyboard? 'Cause I want to SMASH you",
 	"if you were an angle, you'd be acute. but you're just an angel.",
@@ -19,7 +19,12 @@ const messages = [
 	"GO CRUSH THE DAY!! (because I have a crush on you)",
 	"Practice piano... don't let those fingers get too out of shape without me :)",
 	"I'm a Trackmaniac for you.",
-	"Watch out! Your brain is so big it might get stuck on your way out today!"
+	"Watch out! Your brain is so big it might get stuck on your way out today!",
+	"Cane's isn't the only thing raising...",
+	"Do you know what time it is? I don't Nowen Soah am asking you.",
+	"Hydrate!!",
+	"You don't have to be tangent to my curves... we could intersect.",
+	"Would you still love me if I was a worm?"
 ];
 
 var allGivenMessages = [];
