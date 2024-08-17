@@ -93,7 +93,6 @@ function updateMessage() {
 }
 
 function displayPastMessages() {
-    console.log("displaying past messages");
     const messagesList = document.getElementById('messages-list'); // Correctly reference the messages-list element
     messagesList.innerHTML = ''; // Clear the list before populating
 
