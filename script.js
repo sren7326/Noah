@@ -96,7 +96,7 @@ function displayPastMessages() {
     const messagesList = document.getElementById('messages-list'); // Correctly reference the messages-list element
     messagesList.innerHTML = ''; // Clear the list before populating
 
-    for (let i = 0; i < currentIndex - 1; i++) {
+    for (let i = 0; i < currentIndex; i++) {
         if (allGivenMessages[i]) {
             const messageItem = document.createElement('div');
             messageItem.innerText = allGivenMessages[i];
