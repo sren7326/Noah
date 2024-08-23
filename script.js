@@ -59,6 +59,7 @@ function load() {
 
     checkAndUpdateMessage();  // Check if we need to update the message
     displayPastMessages();  // Display previous messages
+    save();
     console.log("Game Loaded! Current index:" + currentIndex);
 }
 
